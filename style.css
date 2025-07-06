@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cannon {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    margin-top: 800px;
+    margin-left: 200px;
+    transform: rotate(0deg);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.land {
+    height: 20px;
+    background-color: brown;
+}
+
+.cannon-ball {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    bottom: 10px;
+}
+
+.start_btn{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    align-self: center;
+}
+.vel_x, .vel_y, .frm_rate{
+    font-size: 15px;
+}
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: end;
+    border: 2px solid black;
+    padding: 5px 10px;
+}
